@@ -3,6 +3,8 @@
 ## Definition
 Lambda-Funktionen sind kleine, anonyme Funktionen, d.h. ihnen wird kein Name zugewiesen. Diese Funktionen können zum Beispiel für einfache Rechenoperationen herangezogen werden.
 
+Lambda-Funktionen werden verwendet, wenn Funktionen nur einmal verwendet werden.
+
 Lambda-Funktionen können auch innerhalb von anderen Funktionen aufrufen werden.
 
 ## Syntax
@@ -61,3 +63,22 @@ Aufgerufen wird die Funktion mit s(5). Zurückgeliefert wird das Ergebnis 15.
      sorted([1,4,7,3,5], key = lambda x : -x
      
      ► Ergebnis: [7, 5, 4, 3, 1]
+     
+     
+     s = lambda x: True if x % 2 == 0 else False
+     
+     print (s(10))
+     print (s(11))
+     
+     ► Ergebnis: True und False
+     
+     
+     s = lambda x: ‘big’ if x > 100 else ‘small’
+     
+     print (s(200))
+     
+      ► Ergebnis: 'big'
+     
+     
+     
+     
