@@ -18,19 +18,19 @@ Aufgerufen wird die Funktion mit s(5). Zurückgeliefert wird das Ergebnis 15.
 
 ## Anwendungsbeispiele
 
-    s = lambda a : a + 10    s(a) liefert einen Wert von a + 10 zurück.
+    s = lambda a : a + 10 │ s(a) liefert einen Wert von a + 10 zurück.
     print(s(5))
     
     ► Ergebnis: 15
 
 
-    x = lambda a, b : a * b     x(a,b) liefert das Produkt der Multiplikation von a und b zurück.
+    x = lambda a, b : a * b │ x(a,b) liefert das Produkt der Multiplikation von a und b zurück.
     print(x(5, 6))
     
     ► Ergbnis: 30
 
 
-    x = lambda a, b, c : a + b + c      x(a,b,c) liefert die Summe der drei Argumente zurück.
+    x = lambda a, b, c : a + b + c │ x(a,b,c) liefert die Summe der drei Argumente zurück.
     print(x(5, 6, 2))
     
     ► Ergebnis: 13
