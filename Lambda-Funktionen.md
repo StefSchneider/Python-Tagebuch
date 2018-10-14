@@ -80,5 +80,12 @@ Aufgerufen wird die Funktion mit s(5). Zurückgeliefert wird das Ergebnis 15.
       ► Ergebnis: 'big'
      
      
+     Vokale = ('a', 'e', 'i', 'o', 'u')
      
+     x = lambda Buchstabe, Menge : 'enthalten' if Buchstabe in Vokale else 'nicht drin'
+     
+     print (x('a', Vokale))
+     print (x('f', Vokale))
+     
+      ► Ergebnis: 'enthalten' und 'nicht drin'
      
