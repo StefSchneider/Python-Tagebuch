@@ -37,6 +37,7 @@ In diesem Fall erhält 'variable' den Wert 10.
 - int: Integer
 - set: Set
 - str: String
+- list: Liste
 - dict: Dictionary
 - frozentset: Frozenset
   
